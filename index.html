@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>STEM 8 Bridges</title>   
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <style>
+            .sites {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            div.sites > div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            div.sites > a {
+                display: flex;
+            }
+            iframe {
+                pointer-events: none;
+                overflow: hidden;
+            }
+            h1 {
+                display: flex;
+                justify-content: center;
+            }
+        </style>
+        
+    </head>
+    <body>
+    <h1>
+        STEM 8 2024 Bridge Catalog
+    </h1>
+    <div id="shuffle" class="sites">
+    </div>
+
+<script>
+<!--
+var sites = [{
+    "name1": "Lucy",
+    "name2": "Keauna",
+    "folder": "lucy-keauna"
+},{
+    "name1": "Lennox",
+    "name2": "Tayson",
+    "folder": "lennox-tayson"
+},{
+    "name1": "Akira",
+    "name2": "Tristan",
+    "folder": "akira-tristan"
+}];
+    
+function shuffle(array) {
+  let currentIndex = array.length;
+
+  // While there remain elements to shuffle...
+  while (currentIndex != 0) {
+
+    // Pick a remaining element...
+    let randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
+}
+    
+$(window).on('load', function() {
+    shuffle(sites);
+    for (let i = 0; i < sites.length; i++) {
+        let title = sites[i]["name1"] + " & " + sites[i]["name2"];
+        var random_boolean = Math.random() < 0.5;
+        if (random_boolean) {
+            title = sites[i]["name2"] + " & " + sites[i]["name1"];
+        }
+        let folder = sites[i]["folder"];
+        $('#shuffle').append(`<div>
+            <iframe title="` + title +`" src="teams/`+ folder +`/index.html"></iframe>
+            <a href="teams/`+folder+`/index.html">` + title + `</a>
+    </div>`);
+    }
+});
+-->
+</script>
+    </body>
+</html>

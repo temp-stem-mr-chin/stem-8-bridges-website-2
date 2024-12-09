@@ -2,18 +2,24 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>STEM 8 Bridges</title>   
+        <title>STEM 8 Bridges</title>  
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="teams.js"></script>
+
         <style>
             .sites {
                 display: flex;
                 flex-wrap: wrap;
+                justify-content: space-around;
+                padding: 0;
             }
             div.sites > div {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+                padding: 2px;
             }
             div.sites > a {
                 display: flex;
@@ -21,13 +27,19 @@
             iframe {
                 pointer-events: none;
                 overflow: hidden;
+                width: 800px;
+                height: 600px;
+                border: 1px solid black;
+                margin: 2px;
+            }
+            iframe {
+                zoom: 0.2; -moz-transform: scale(0.75); -moz-transform-origin: 0 0;
             }
             h1 {
                 display: flex;
                 justify-content: center;
             }
         </style>
-        
     </head>
     <body>
     <h1>
@@ -38,19 +50,6 @@
 
 <script>
 <!--
-var sites = [{
-    "name1": "Lucy",
-    "name2": "Keauna",
-    "folder": "lucy-keauna"
-},{
-    "name1": "Lennox",
-    "name2": "Tayson",
-    "folder": "lennox-tayson"
-},{
-    "name1": "Akira",
-    "name2": "Tristan",
-    "folder": "akira-tristan"
-}];
     
 function shuffle(array) {
   let currentIndex = array.length;
@@ -77,9 +76,13 @@ $(window).on('load', function() {
             title = sites[i]["name2"] + " & " + sites[i]["name1"];
         }
         let folder = sites[i]["folder"];
+        let index = "index.html";
+        if (sites[i].hasOwnProperty("index")) {
+            index = sites[i]["index"];
+        }
         $('#shuffle').append(`<div>
-            <iframe title="` + title +`" src="teams/`+ folder +`/index.html"></iframe>
-            <a href="teams/`+folder+`/index.html">` + title + `</a>
+            <iframe scrolling="no" title="` + title +`" src="teams/` + folder + `/` + index + `"></iframe>
+            <a href="teams/` + folder + `/` + index + `">` + title + `</a>
     </div>`);
     }
 });

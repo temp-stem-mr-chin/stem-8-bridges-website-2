@@ -31,7 +31,8 @@ var sites = [{
 },{
     "name1": "Luca",
     "name2": "Edwin",
-    "folder": "luca-edwin"
+    "folder": "luca-edwin",
+    "index": "homepage.html"
 },{
     "name1": "Aidan",
     "name2": "Caleb",

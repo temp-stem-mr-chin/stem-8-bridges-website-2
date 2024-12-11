@@ -40,7 +40,8 @@ var sites = [{
 },{
     "name1": "Oscar",
     "name2": "Max C",
-    "folder": "aidan-caleb"
+    "folder": "oscar and max",
+    "index": "Team.HTML"
 },{
     "name1": "Shayla",
     "name2": "Kodi",

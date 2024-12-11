@@ -1,4 +1,3 @@
-
 var sites = [{
     "name1": "Lucy",
     "name2": "Keauna",

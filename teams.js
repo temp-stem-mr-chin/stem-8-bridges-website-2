@@ -1,4 +1,3 @@
-
 var sites = [{
     "name1": "Lucy",
     "name2": "Keauna",
@@ -15,7 +14,8 @@ var sites = [{
 },{
     "name1": "Elias",
     "name2": "Max H",
-    "folder": "Elias-Max"
+    "folder": "Elias-Max",
+    "index": "Index.html"
 },{
     "name1": "Theo",
     "name2": "Simon",

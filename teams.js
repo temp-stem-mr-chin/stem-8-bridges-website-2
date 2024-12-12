@@ -21,9 +21,9 @@ var sites = [{
     "name2": "Simon",
     "folder": "Theo-Simon"
 },{
-    "name1": "Brennan",
+    "name1": "Brennen",
     "name2": "David",
-    "folder": "brennan-david"
+    "folder": "brennen-david"
 },{
     "name1": "Holly",
     "name2": "Noah",
@@ -36,7 +36,7 @@ var sites = [{
 },{
     "name1": "Aidan",
     "name2": "Caleb",
-    "folder": "aidan-caleb"
+    "folder": "caleb-aiden"
 },{
     "name1": "Oscar",
     "name2": "Max C",

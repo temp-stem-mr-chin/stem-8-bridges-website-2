@@ -76,8 +76,8 @@ $(window).on('load', function() {
             title = sites[i]["name2"] + " & " + sites[i]["name1"];
         }
         let folder = sites[i]["folder"];
-        let index = "index.html";
-        if (sites[i].hasOwnProperty("index")) {
+        let index = "";
+        if ("index" in sites[i]) {
             index = sites[i]["index"];
         }
         $('#shuffle').append(`<div>

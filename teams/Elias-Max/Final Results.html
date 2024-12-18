@@ -2,12 +2,96 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        
         <title>Title</title>
         
         <style>
+            body {
+                text-align: center;
+                border: solid;
+                border-width: 8px;
+                border-color: #3E1735;
+                border-radius: 20px;
+                font-size: 25px;
+            }
+        </style>
+        <style>
+            img {
+                border-radius: 5px;
+                border: solid;
+                border-color: #3E1735;
+                border-width: 5px
+                
+            }
+        </style>
+        <style>
+            img:hover {
+                border-color: #743666;
+            }
+        </style>
+        <style>
+            p {
+                font-family: monospace;
+                color: #582C4D
+            }
+        </style>
+        <style>
+            video {
+                border: solid;
+                border-width: 5px;
+                border-radius: 10px;
+                border-color: #3E1735;
+                color: #3E1735;
+            }
+        </style>
+        <style>
+            video:hover {
+                border-color: #743666;
+            }
+        </style>
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #3E1735;
+                border-radius: 10px;
+                position: static
+            }
+        </style>
+        <style>
+            li {
+                float: left;
+            }
+        </style>
+        <style>
+            li a {
+                display: block;
+                color: #BFB5AF;
+                text-align: center;
+                padding: 10px 16px;
+                text-decoration: none;
+            }
+        </style>
+        <style>
+            li a:hover {
+                background-color: #743666;
+                transition-delay: 0.05s;
+                font-size: 30px;
+            }
+        </style>
+        <style>
             a {
                 font-family: monospace;
-                color: red
+                display: block;
+                padding: 8px;
+                background-color: #3E1735;
+            }
+        </style>
+        <style>
+            h1 {
+                color: #3E1735
             }
         </style>
         <style>
@@ -30,7 +114,15 @@
     
     <body style="background-image: linear-gradient(-90deg, #BFB5AF 30%, #D5B9B2 70%, #ECE2D0 100%)">
     <h1 class="title" style="font-family:'Franklin Gothic Medium'">Test results</h1>
-        
+        <div>
+            <ul>
+                <li><a href="Index.html"> Home</a></li>
+                <li><a href="Teams.html"> Teams</a></li>
+                <li><a href="Reflections%20-Improvements.html"> Reflections</a></li>
+                <li><a href="Design%20Process.html"> Design</a></li>
+                <li><a href="Final%20Results.html">Results</a></li>
+            </ul>
+        </div>
         
         <h3 class="title" style="font-family:'Franklin Gothic Medium'">How was the bridge tested? </h3>
         <div> <p style="font-family: monospace">We used a bridge crusher. It pressed down on the top of the bridge and used 
@@ -40,13 +132,10 @@
         <h3 class="title" style="font-family:'Franklin Gothic Medium'">The results </h3>
           <p style="font-family: monospace"> Our brdige held 0.454 kilograms! Although that was the lowest mass held out of any group, 
              we had the lowest weight of any bridge, 0.028 kilograms. Our score was 16.2! We got 3rd place! </p>
-             <video width="320" height="240" controls>
-         <source src="IMG_0247%20(1).MOV" type="video/mp4">
-        </video>
         <div>
-            <a style="font-family: monospace; color: red" href="Index.html">
-                Click to go Home
-            </a>
+             <video width="320" height="240" controls>
+                <source src="IMG_0247%20(1).MOV" type="video/mp4">
+            </video>
         </div>
     </body>
 </html>

@@ -2,21 +2,87 @@
 <html lang="en">
     <head>
         <title>Teams</title>
-        
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #3E1735;
+                border-radius: 10px;
+                position: static;
+            }
+        </style>
+        <style>
+            li {
+                float: left;
+            }
+        </style>
+        <style>
+            li a {
+                display: block;
+                color: #BFB5AF;
+                text-align: center;
+                padding: 10px 16px;
+                text-decoration: none;
+                font-family: monospace;
+            }
+        </style>
+        <style>
+            li a:hover {
+                background-color: #743666;
+                transition-delay: 0.05s;
+                font-size: 30px;
+            }
+        </style>
         <style>
             p {
                 font-family: monospace;
-                color: #582C4D
+                color: #582C4D;
+                text-align: center
             }
         </style>
         <style>
             h4 {
-                color: #A26769
+                color: #A26769;
+                text-align: center
             }
         </style>
         <style>
             h1 {
-                color: #3E1735
+                color: #3E1735;
+                text-align: center
+            }
+        </style>
+        <style>
+            textarea {
+                color: #582C4D;
+                border: solid;
+                border-radius: 10px;
+                border-color: #3E1735;
+                border-width: 3px;
+            }
+        </style>
+        <style>
+            textarea:hover {
+                border-color: #743666;
+            }
+        </style>
+        <style>
+            .photo {
+                background-color: #3E1735;
+                padding: 4px;
+                border-radius: 10px;
+            }
+        </style>
+        <style>
+            body {
+                text-align: center;
+                border: solid;
+                border-width: 8px;
+                border-color: #3E1735;
+                border-radius: 20px;
+                font-size: 25px;
             }
         </style>
     </head>
@@ -25,6 +91,15 @@
             <h1 style="font-family: 'Franklin Gothic Medium'">
                 Team
             </h1>
+        </div>
+        <div>
+            <ul>
+                <li><a href="Index.html"> Home</a></li>
+                <li><a href="Teams.html"> Teams</a></li>\
+                <li><a href="Reflections%20-Improvements.html"> Reflections</a></li>
+                <li><a href="Design%20Process.html"> Design</a></li>
+                <li><a href="Final%20Results.html">Results</a></li>
+            </ul>
         </div>
         <div>
             <p style="font-family: monospace">
@@ -36,21 +111,16 @@
                 Elias:
             </p>
             <div>
-                <img style="background-color: #3E1735; padding: 4px" height="200" src="IMG_0261.png">
+                <img class="photo" height="200" src="IMG_0261.png">
             </div>
                 <textarea disabled="disabled">Big Programer, Measurement Man</textarea>
             <p style="font-family: monospace">
                 Max:
             </p>
             <div>
-                <img style="background-color: #3E1735; padding: 4px" height="200" src="IMG_0260.png">
+                <img class="photo" height="200" src="IMG_0260.png">
             </div>
             <textarea disabled="disabled">Big Builder, Small Programer</textarea>
-        </div>
-        <div>
-            <a style="font-family: monospace; color: red" href="Index.html">
-                Click to go Home
-            </a>
         </div>
     </body>
 </html>

@@ -1,4 +1,3 @@
-
 var sites = [{
     "name1": "Lucy",
     "name2": "Keauna",
@@ -15,15 +14,16 @@ var sites = [{
 },{
     "name1": "Elias",
     "name2": "Max H",
-    "folder": "Elias-Max"
+    "folder": "Elias-Max",
+    "index": "Index.html"
 },{
     "name1": "Theo",
     "name2": "Simon",
     "folder": "Theo-Simon"
 },{
-    "name1": "Brennan",
+    "name1": "Brennen",
     "name2": "David",
-    "folder": "brennan-david"
+    "folder": "brennen-david"
 },{
     "name1": "Holly",
     "name2": "Noah",
@@ -31,15 +31,17 @@ var sites = [{
 },{
     "name1": "Luca",
     "name2": "Edwin",
-    "folder": "luca-edwin"
+    "folder": "luca-edwin",
+    "index": "homepage.html"
 },{
     "name1": "Aidan",
     "name2": "Caleb",
-    "folder": "aidan-caleb"
+    "folder": "caleb-aidan"
 },{
     "name1": "Oscar",
     "name2": "Max C",
-    "folder": "aidan-caleb"
+    "folder": "oscar and max",
+    "index": "Team.HTML"
 },{
     "name1": "Shayla",
     "name2": "Kodi",

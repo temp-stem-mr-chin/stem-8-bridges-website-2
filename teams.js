@@ -27,7 +27,8 @@ var sites = [{
 },{
     "name1": "Holly",
     "name2": "Noah",
-    "folder": "holly-noah"
+    "folder": "noah-holly",
+    "index": "team.html"
 },{
     "name1": "Luca",
     "name2": "Edwin",
